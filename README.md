@@ -22,3 +22,10 @@ Our mission is to provide a "Bank-Grade" security layer for landowners like Myri
 * **Smart Contracts:** Solidity (OpenZeppelin) / Stylus (Rust)
 * **Identity:** Billions ZK-Identity (Privado ID)
 * **Security Standard:** ERC-3643
+---
+
+## 🔐 Project Identity
+
+* **Official Admin Wallet:** 0x111783b2e149C62bd8f32ba4007ea58583EBBA53
+* **Network:** Arbitrum Sepolia (Testnet) / Arbitrum One (Mainnet)
+> **Note:** This wallet is the designated owner for the REBEKA smart contracts and the recipient of any hackathon bounties.
