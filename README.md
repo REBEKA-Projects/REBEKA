@@ -1,4 +1,4 @@
-# 🏰 REBEKA: Real Estate Blockchain Evolution & Key Assets
+# 🏰 REBEKA: Real Estate Blockchain Ekosystem Arbitrum
 > **Pioneering Institutional RWA Tokenization for Mexico and LatAm on Arbitrum.**
 
 ---
