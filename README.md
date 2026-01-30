@@ -1,28 +1,5 @@
-# 🏰 REBEKA: Real Estate Blockchain Ekosystem Arbitrum
-> **Pioneering Institutional RWA Tokenization for Mexico and LatAm on Arbitrum.**
+REBEKA: Real Estate Blockchain Ekosystem ArbitrumREBEKA is a decentralized Real World Asset (RWA) protocol built on Arbitrum Stylus. We specialize in transforming high-value, illiquid land into liquid digital assets. Our mission is to provide land owners with an accelerated exit strategy while offering retail investors fractional access to premium real estate through a secure, legally-backed framework.📍 Genesis Asset: Cerro del ChiquihuiteThe protocol debuts with the tokenization of 20 hectares in Puebla, Mexico.Token Ticker: $RBK-CHIQFull Name: Real Estate Blockchain Ekosystem ArbitrumAsset Ratio: 1 Token = 1 $m^2$.🏗 Key Pillars1. Legal Trust (Mexican Fideicomiso)The project is anchored by a Mexican Irrevocable Trust (Fideicomiso). This legal vehicle:Segregates the land into an autonomous patrimony, protecting it from external liabilities.Acts as the binding bridge between Blockchain records and the Public Property Registry.Hardcodes a "Sunset Clause" for public auction if total liquidation isn't achieved by Year 10.2. Financial Engineering (80/10/10)REBEKA employs a sophisticated waterfall payment structure to align all stakeholders:AllocationPercentagePurposeLiquidation Pool80%Dedicated to the original land owners for a full exit.Operational Reserve10%Funds 10 years of property taxes, legal fees, and security.Team Incentives10%Founders' pool with hybrid vesting and performance locks.3. Survival Vault (Priority Liquidity)To ensure long-term viability, the first $1,350,000 MXN in sales are prioritized to fund the "Survival Vault." This ensures the project has a 12-month operational runway (Legal, Security, and Core Team) regardless of market conditions.🛠 Technical Architecture (Arbitrum Stylus)REBEKA leverages Rust through Arbitrum Stylus to deliver institutional-grade compliance and ultra-low gas fees.Token Standard: ERC-3643 (T-REX) for regulated assets.Identity Management: Native On-chain Identity Registry. We maintain a sovereign whitelist for KYC-verified users, ensuring all transfers comply with Mexican and international regulations without relying on unstable third-party providers.Smart Contracts:RBKToken.rs: Core asset logic implemented in Stylus.WaterfallVault.sol: Automated funds distribution logic.IdentityRegistry.sol: Native permission and compliance management.🛡 Risk Mitigation & GovernanceAnti-Whale: Maximum 10% token ownership per identity to prevent market manipulation.Governance Cap: Voting power is capped at 25% per identity to prevent hostile takeovers.Sunset Clause: Mandatory physical asset liquidation by the Trustee at Year 10 to protect investor capital from "dead-token" scenarios.Inheritance Bridge: Legal clauses for "Successor Beneficiaries" ensure capital flow isn't frozen by probate courts in the event of a holder's passing.
 
----
-
-## 📋 Project Overview
-
-REBEKA is a decentralized protocol designed to transform high-value, illiquid real estate into fractionalized, compliant digital assets. By bridging the gap between traditional Mexican legal frameworks (**Fideicomisos**) and the efficiency of the **Arbitrum** ecosystem, we enable global investors to access the Latin American property market starting from 1 m².
-
-Our mission is to provide a "Bank-Grade" security layer for landowners like Myriam, ensuring that physical assets are protected by code, law, and ZK-Identity.
-
-### 🚀 Key Features
-
-* **Institutional Compliance:** Powered by the **ERC-3643 (T-REX)** standard for automated regulatory enforcement.
-* **Privacy-First KYC:** Integration with **Billions (Privado ID)** using Zero-Knowledge proofs to verify investors without compromising sensitive data.
-* **Asset Recovery Protocol:** Built-in mechanisms to recover access to assets in case of lost keys, backed by the legal fiduciary structure.
-* **Arbitrum Scalability:** Low-cost, near-instant settlement leveraging Ethereum's most robust Layer 2 security.
-
-### 🛠️ Tech Stack
-
-* **Network:** Arbitrum Sepolia / Orbit
-* **Smart Contracts:** Solidity (OpenZeppelin) / Stylus (Rust)
-* **Identity:** Billions ZK-Identity (Privado ID)
-* **Security Standard:** ERC-3643
----
 
 ## 🔐 Project Identity
 
