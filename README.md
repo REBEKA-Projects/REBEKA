@@ -7,7 +7,8 @@ The protocol debuts with the tokenization of **20 hectares** in Puebla, Mexico.
 * **Token Ticker:** `$RBK-CHIQ`
 * **Full Name:** Real Estate Blockchain Ekosystem Arbitrum
 * **Asset Ratio:** 1 Token = 1 $m^2$
-* **Estimated Initial Price:** ~$28 USD per token ($m^2$)
+* **Base Price:** **$30 USD** per token ($m^2$)
+* **Total Project Value:** **$6,000,000 USD**
 
 ---
 
@@ -22,14 +23,14 @@ The project is anchored by a **Mexican Irrevocable Trust (Fideicomiso)**. This l
 ### 2. Financial Engineering (80/10/10)
 REBEKA employs a sophisticated waterfall payment structure to align all stakeholders:
 
-| Allocation | Percentage | Purpose |
-| :--- | :--- | :--- |
-| **Liquidation Pool** | **80%** | Dedicated to the original land owners for a full exit. |
-| **Operational Reserve** | **10%** | Funds 10 years of property taxes, legal fees, and security. |
-| **Team Incentives** | **10%** | Founders' pool with hybrid vesting and performance locks. |
+| Allocation | Percentage | Tokens | Value (USD) | Purpose |
+| :--- | :--- | :--- | :--- | :--- |
+| **Liquidation Pool** | **80%** | 160,000 | $4,800,000 | Dedicated to original owners for a full exit. |
+| **Operational Reserve** | **10%** | 20,000 | $600,000 | Funds 10 years of taxes, legal fees, and security. |
+| **Team Incentives** | **10%** | 20,000 | $600,000 | Founders' pool with hybrid vesting & performance locks. |
 
 ### 3. Survival Vault (Priority Liquidity)
-To ensure long-term viability, the first **$75,000 USD** in sales are prioritized to fund the "Survival Vault." This ensures the project has a 12-month operational runway (Legal, Security, and Core Team) regardless of market conditions.
+To ensure long-term viability, the first **$80,000 USD** in sales are prioritized to fund the "Survival Vault." This ensures the project has a 12-month operational runway (Legal, Security, and Core Team) regardless of market speed. 
 
 
 
@@ -40,7 +41,7 @@ To ensure long-term viability, the first **$75,000 USD** in sales are prioritize
 REBEKA leverages **Rust** through **Arbitrum Stylus** to deliver institutional-grade compliance and ultra-low gas fees.
 
 * **Token Standard:** **ERC-3643 (T-REX)** for regulated assets.
-* **Identity Management:** Native **On-chain Identity Registry**. We maintain a sovereign whitelist for KYC-verified users, ensuring all transfers comply with Mexican and international regulations without relying on third-party providers.
+* **Identity Management:** Native **On-chain Identity Registry**. We maintain a sovereign whitelist for KYC-verified users, ensuring all transfers comply with Mexican and international regulations without relying on unstable third-party providers.
 * **Smart Contracts:**
     * `RBKToken.rs`: Core asset logic implemented in Stylus.
     * `WaterfallVault.sol`: Automated funds distribution logic.
@@ -65,7 +66,7 @@ REBEKA leverages **Rust** through **Arbitrum Stylus** to deliver institutional-g
 ---
 
 ## 👥 The Team
-* **Romualdo Zayas:** Strategy & Web3 Consulting.
+* **Rom:** Strategy & Web3 Consulting.
 * **Artur:** Lead Smart Contract Engineer (Stylus/Rust).
 * **Robin:** UI/UX & Product Design.
 
