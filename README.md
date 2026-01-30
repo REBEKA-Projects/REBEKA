@@ -7,6 +7,7 @@ The protocol debuts with the tokenization of **20 hectares** in Puebla, Mexico.
 * **Token Ticker:** `$RBK-CHIQ`
 * **Full Name:** Real Estate Blockchain Ekosystem Arbitrum
 * **Asset Ratio:** 1 Token = 1 $m^2$
+* **Estimated Initial Price:** ~$28 USD per token ($m^2$)
 
 ---
 
@@ -28,7 +29,9 @@ REBEKA employs a sophisticated waterfall payment structure to align all stakehol
 | **Team Incentives** | **10%** | Founders' pool with hybrid vesting and performance locks. |
 
 ### 3. Survival Vault (Priority Liquidity)
-To ensure long-term viability, the first **$1,350,000 MXN** in sales are prioritized to fund the "Survival Vault." This ensures the project has a 12-month operational runway (Legal, Security, and Core Team) regardless of market conditions.
+To ensure long-term viability, the first **$75,000 USD** in sales are prioritized to fund the "Survival Vault." This ensures the project has a 12-month operational runway (Legal, Security, and Core Team) regardless of market conditions.
+
+
 
 ---
 
@@ -37,7 +40,7 @@ To ensure long-term viability, the first **$1,350,000 MXN** in sales are priorit
 REBEKA leverages **Rust** through **Arbitrum Stylus** to deliver institutional-grade compliance and ultra-low gas fees.
 
 * **Token Standard:** **ERC-3643 (T-REX)** for regulated assets.
-* **Identity Management:** Native **On-chain Identity Registry**. We maintain a sovereign whitelist for KYC-verified users, ensuring all transfers comply with Mexican and international regulations without relying on unstable third-party providers.
+* **Identity Management:** Native **On-chain Identity Registry**. We maintain a sovereign whitelist for KYC-verified users, ensuring all transfers comply with Mexican and international regulations without relying on third-party providers.
 * **Smart Contracts:**
     * `RBKToken.rs`: Core asset logic implemented in Stylus.
     * `WaterfallVault.sol`: Automated funds distribution logic.
@@ -68,5 +71,4 @@ REBEKA leverages **Rust** through **Arbitrum Stylus** to deliver institutional-g
 
 ---
 **Developed for the Arbitrum Buildathon NYC 2026.**
-## 🔐 Project Identity
 
