@@ -1,59 +1,49 @@
-# REBEKA: Real Estate Blockchain Ekosystem Arbitrum
+REBEKA: Real Estate Blockchain Ekosystem Arbitrum
+REBEKA is a comprehensive RWA (Real World Asset) infrastructure designed to digitize high-value real estate in emerging markets. By bridging Mexican legal structures with Arbitrum’s high-performance network, we transform "frozen" land into liquid, compliant digital assets.
 
-**REBEKA** is a decentralized Real World Asset (RWA) protocol built on **Arbitrum Stylus**. We specialize in transforming high-value, illiquid land into liquid digital assets. Our mission is to provide land owners with an accelerated exit strategy while offering retail investors fractional access to premium real estate through a secure, legally-backed framework.
+This repository acts as the central hub for the REBEKA ecosystem, orchestrating the synergy between our financial engineering, legal compliance, and user interface.
 
-## 📍 Genesis Asset: Cerro del Chiquihuite
-The protocol debuts with the tokenization of **20 hectares** in Puebla, Mexico.
-* **Token Ticker:** `$RBK-CHIQ`
-* **Full Name:** Real Estate Blockchain Ekosystem Arbitrum
-* **Asset Ratio:** 1 Token = 1 $m^2$
-* **Base Price:** **$30 USD** per token ($m^2$)
-* **Total Project Value:** **$6,000,000 USD**
+📂 Project Structure
+The REBEKA ecosystem is organized into specialized modules within the REBEKAProjects framework:
 
----
+1. rebeka_contracts (The Protocol Core)
+Architecture: Solidity / Hardhat.
 
-## 🏗️ Key Pillars
+Role: Manages the $REBK token lifecycle and the Automated Financial Waterfall.
 
-### 1. Legal Trust (Mexican Fideicomiso)
-The project is anchored by a **Mexican Irrevocable Trust (Fideicomiso)**. This legal vehicle:
-* Segregates the land into an **autonomous patrimony**, protecting it from external liabilities.
-* Acts as the binding bridge between Blockchain records and the Public Property Registry.
-* Hardcodes a **"Sunset Clause"** for public auction if total liquidation isn't achieved by Year 10.
+Key Feature: Implements the 5.13% Survival Vault (10-year operational reserve) and the 85.87% Landowner Payout logic directly on-chain to ensure radical transparency and trustless execution.
 
-### 2. Financial Engineering (80/10/10)
-REBEKA employs a sophisticated waterfall payment structure to align all stakeholders:
+2. FrontEnd (The Investor Portal)
+Stack: React / Next.js / Tailwind CSS.
 
-| Allocation | Percentage | Tokens | Value (USD) | Purpose |
-| :--- | :--- | :--- | :--- | :--- |
-| **Liquidation Pool** | **80%** | 160,000 | $4,800,000 | Dedicated to original owners for a full exit. |
-| **Operational Reserve** | **10%** | 20,000 | $600,000 | Funds 10 years of taxes, legal fees, and security. |
-| **Team Incentives** | **10%** | 20,000 | $600,000 | Founders' pool with hybrid vesting & performance locks. |
+Role: The primary gateway for investors to browse tokenized hectares, complete KYC onboarding, and manage their fractionalized real estate portfolio.
 
-### 3. Survival Vault (Priority Liquidity)
-To ensure long-term viability, the first **$80,000 USD** in sales are prioritized to fund the "Survival Vault." This ensures the project has a 12-month operational runway (Legal, Security, and Core Team) regardless of market speed. 
+Integration: Connects seamlessly with Arbitrum-compatible wallets (E.g., MetaMask, Rabby) to facilitate secure transactions.
+
+3. REBEKA (Documentation & Governance)
+Role: This current repository serves as the project’s high-level documentation, whitepaper storage, and governance framework.
+
+Focus: It outlines the integration between the Mexican Irrevocable Trust and the blockchain registry, providing the legal-technical roadmap for institutional adoption.
+
+🏗️ Core Innovations for the Buildathon
+REBEKA solves the "RWA Friction" through three main pillars:
+
+Smart Settlement: Our custom waterfall logic ensures that funds are never "stuck." Upon purchase, capital is automatically routed to the landowner and the maintenance reserves, eliminating human error in fund management.
+
+Lightweight Compliance: We utilize a native Identity Allowlist to enforce KYC/AML regulations at the protocol level without the high costs of external standard licenses, making it viable for LATAM markets.
+
+The Survival Vault: We solve the "dead-token" problem by pre-funding 10 years of property taxes and fiduciary fees, ensuring every $REBK token represents a debt-free asset.
+
+🚀 Buildathon Roadmap
+Phase 1 (MVP): Full integration of rebeka_contracts and FrontEnd on Arbitrum Sepolia.
+
+Phase 2 (Scalability): Migrating core calculation modules to Arbitrum Stylus (Rust) to further reduce gas fees for retail investors.
+
+Phase 3 (Expansion): Onboarding the first 20 hectares in Puebla, Mexico, as the Genesis Asset.
+
+REBEKA: Building the Future of Liquid Real Estate on Arbitrum.and Core Team) regardless of market speed. 
 
 
-
----
-
-## 🛠️ Technical Architecture (Arbitrum Stylus)
-
-REBEKA leverages **Rust** through **Arbitrum Stylus** to deliver institutional-grade compliance and ultra-low gas fees.
-
-* **Token Standard:** **ERC-3643 (T-REX)** for regulated assets.
-* **Identity Management:** Native **On-chain Identity Registry**. We maintain a sovereign whitelist for KYC-verified users, ensuring all transfers comply with Mexican and international regulations without relying on unstable third-party providers.
-* **Smart Contracts:**
-    * `RBKToken.rs`: Core asset logic implemented in Stylus.
-    * `WaterfallVault.sol`: Automated funds distribution logic.
-    * `IdentityRegistry.sol`: Native permission and compliance management.
-
----
-
-## 🛡️ Risk Mitigation & Governance
-* **Anti-Whale:** Maximum 10% token ownership per identity to prevent market manipulation.
-* **Governance Cap:** Voting power is capped at 25% per identity to prevent hostile takeovers.
-* **Sunset Clause:** Mandatory physical asset liquidation by the Trustee at Year 10 to protect investor capital from "dead-token" scenarios.
-* **Inheritance Bridge:** Legal clauses for "Successor Beneficiaries" ensure capital flow isn't frozen by probate courts in the event of a holder's passing.
 
 ---
 
