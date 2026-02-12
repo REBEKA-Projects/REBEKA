@@ -1,4 +1,5 @@
-REBEKA: Real Estate Blockchain Ekosystem Arbitrum
+## REBEKA: Real Estate Blockchain Ekosystem Arbitrum
+
 REBEKA is a professional RWA (Real World Asset) infrastructure designed to scale land property tokenization. By bridging the Mexican legal framework with the Arbitrum network, we provide a robust platform for managing large-scale properties under a secure, permissioned, and transparent environment.
 
 Our ecosystem is designed to support diverse real estate strategies through a modular approach, ensuring that each property asset is backed by institutional-grade technology and legal certainty.
@@ -35,7 +36,6 @@ Phase 2: Optimization of the "Survival Vault" logic and integration of advanced 
 
 Phase 3: Onboarding of the first large-scale pilot property under the Growth/Exit model.
 
-REBEKA: The Institutional Infrastructure for Liquid Real Estate on Arbitrum.
 ---
 
 ## 🔐 Project Identity
