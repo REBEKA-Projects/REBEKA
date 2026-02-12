@@ -1,50 +1,41 @@
 REBEKA: Real Estate Blockchain Ekosystem Arbitrum
-REBEKA is a comprehensive RWA (Real World Asset) infrastructure designed to digitize high-value real estate in emerging markets. By bridging Mexican legal structures with Arbitrum’s high-performance network, we transform "frozen" land into liquid, compliant digital assets.
+REBEKA is a professional RWA (Real World Asset) infrastructure designed to scale land property tokenization. By bridging the Mexican legal framework with the Arbitrum network, we provide a robust platform for managing large-scale properties under a secure, permissioned, and transparent environment.
 
-This repository acts as the central hub for the REBEKA ecosystem, orchestrating the synergy between our financial engineering, legal compliance, and user interface.
+Our ecosystem is designed to support diverse real estate strategies through a modular approach, ensuring that each property asset is backed by institutional-grade technology and legal certainty.
 
-📂 Project Structure
-The REBEKA ecosystem is organized into specialized modules within the REBEKAProjects framework:
+🏗️ Core Infrastructure & Strategy
+REBEKA is built to support three fundamental investment objectives, adaptable to each property’s specific needs:
 
-1. rebeka_contracts (The Protocol Core)
-Architecture: Solidity / Hardhat.
+EXIT (Liquidation): Streamlined tokenization for full asset sale and capital recovery.
 
-Role: Manages the $REBK token lifecycle and the Automated Financial Waterfall.
+GROWTH (Appreciation): Focused on long-term value increase through strategic land holding and development.
 
-Key Feature: Implements the 5.13% Survival Vault (10-year operational reserve) and the 85.87% Landowner Payout logic directly on-chain to ensure radical transparency and trustless execution.
+YIELD (Income): Designed for properties that generate recurring cash flow through operations or leasing.
 
-2. FrontEnd (The Investor Portal)
-Stack: React / Next.js / Tailwind CSS.
+Technical Foundation
+RWAPermissionedERC20 Standard: We have developed a custom Permissioned ERC-20 layer. This architecture ensures that asset ownership is strictly governed by internal compliance logic. No transfer is executed unless the parties are verified within our registry, providing a sovereign and cost-efficient alternative for regulated assets.
 
-Role: The primary gateway for investors to browse tokenized hectares, complete KYC onboarding, and manage their fractionalized real estate portfolio.
+Institutional Governance (Multisig): Fund management is secured via a Gnosis Safe Multisig. This "Human-in-the-loop" governance model ensures that all capital distributions—including property-specific reserves and owner payouts—are executed with multi-party oversight, aligning on-chain activity with the legal mandates of the property's Fideicomiso (Trust).
 
-Integration: Connects seamlessly with Arbitrum-compatible wallets (E.g., MetaMask, Rabby) to facilitate secure transactions.
+Survival Vault Concept: Every project within REBEKA integrates a dedicated reserve fund. This vault ensures the asset remains debt-free by covering long-term operational costs (such as taxes and maintenance) directly from the initial funding phase.
 
-3. REBEKA (Documentation & Governance)
-Role: This current repository serves as the project’s high-level documentation, whitepaper storage, and governance framework.
+📂 REBEKAProjects Ecosystem
+The REBEKA infrastructure is organized into specialized modules:
 
-Focus: It outlines the integration between the Mexican Irrevocable Trust and the blockchain registry, providing the legal-technical roadmap for institutional adoption.
+rebeka_contracts: The core protocol featuring the RWAPermissionedERC20 contract and role-based access control (RBAC).
 
-🏗️ Core Innovations for the Buildathon
-REBEKA solves the "RWA Friction" through three main pillars:
+FrontEnd: The professional investor gateway for onboarding, KYC synchronization, and asset management.
 
-Smart Settlement: Our custom waterfall logic ensures that funds are never "stuck." Upon purchase, capital is automatically routed to the landowner and the maintenance reserves, eliminating human error in fund management.
-
-Lightweight Compliance: We utilize a native Identity Allowlist to enforce KYC/AML regulations at the protocol level without the high costs of external standard licenses, making it viable for LATAM markets.
-
-The Survival Vault: We solve the "dead-token" problem by pre-funding 10 years of property taxes and fiduciary fees, ensuring every $REBK token represents a debt-free asset.
+REBEKA (Root): High-level architectural documentation, legal-technical frameworks, and global ecosystem governance.
 
 🚀 Buildathon Roadmap
-Phase 1 (MVP): Full integration of rebeka_contracts and FrontEnd on Arbitrum Sepolia.
+V1 (Current): Full deployment of the Permissioned Token architecture and Multisig governance on Arbitrum Sepolia.
 
-Phase 2 (Scalability): Migrating core calculation modules to Arbitrum Stylus (Rust) to further reduce gas fees for retail investors.
+Phase 2: Optimization of the "Survival Vault" logic and integration of advanced reporting for institutional transparency.
 
-Phase 3 (Expansion): Onboarding the first 20 hectares in Puebla, Mexico, as the Genesis Asset.
+Phase 3: Onboarding of the first large-scale pilot property under the Growth/Exit model.
 
-REBEKA: Building the Future of Liquid Real Estate on Arbitrum.and Core Team) regardless of market speed. 
-
-
-
+REBEKA: The Institutional Infrastructure for Liquid Real Estate on Arbitrum.
 ---
 
 ## 🔐 Project Identity
