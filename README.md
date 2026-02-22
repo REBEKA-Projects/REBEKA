@@ -6,6 +6,14 @@ Our ecosystem is designed to support diverse real estate strategies through a mo
 
 ---
 
+## 📂 Project Structure & Source Code
+
+To maintain an enterprise-grade architecture, our codebase is divided into modular repositories within our GitHub Organization. You can explore the code here:
+
+* **[⛓️ Smart Contracts (Arbitrum & Fhenix)](https://github.com/REBEKA-Projects/rebeka_contracts)**: Contains the Solidity code for the Sovereign Permissioned Layer and the $RWC1 FHE integration.
+* **[🖥️ Frontend (Web3 dApp)](https://github.com/REBEKA-Projects/FrontEnd)**: The Next.js/React investor gateway and UI.
+* **[⚙️ Backend / Node](https://github.com/REBEKA-Projects/rebeka_mocked_back)**: (Si aplica) The off-chain infrastructure and API connections.
+
 ## 🏗️ Core Infrastructure & Strategy
 
 REBEKA is built to support three fundamental investment objectives, adaptable to each property’s specific needs:
