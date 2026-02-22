@@ -50,6 +50,23 @@ The REBEKA infrastructure is organized into specialized modules:
 
 ---
 
+## 🔐 Proof of Deployment: Institutional Privacy (FHE)
+
+To demonstrate REBEKA's "Confidential-by-Design" architecture, we integrated **Fhenix (Fully Homomorphic Encryption)**. This ensures that while transactions are strictly validated on a public ledger, sensitive financial data—such as investment amounts and wallet balances—remains mathematically encrypted and hidden from third parties.
+
+### Smart Contract Details
+* **Network:** Arbitrum Sepolia (Testnet)
+* **Token Name:** RWA Confidential 1 (`$RWC1`)
+* **Confidential Token Address:** `0xe3A879a1e56FC801CaCf128eD1ddbadEc43e272a`
+
+### 🕵️‍♂️ Audit the FHE Integration Yourself
+You can verify the confidentiality of our protocol directly on the block explorer. 
+
+1. **Go to our live demo transaction:** [View on Arbiscan Sepolia](https://sepolia.arbiscan.io/inputdatadecoder?tx=0x600ebd71064cb6c9ccc35b7b4e80d264a52f0e3c17b67b6e7970a4e6b17edaff)
+2. Scroll down to the **"Input Data"** section.
+3. Click the **"Decode Input Data"** button.
+4. **The Result:** Notice that the transferred amount is not visible as plain text. Instead, the explorer returns an encrypted **Ciphertext**, proving that our FHE integration successfully masks institutional capital movements.
+
 ## 👥 The Team
 * **Rom:** Strategy & Web3 Consulting.
 * **Artur:** Lead Smart Contract Engineer (Stylus/Rust).
