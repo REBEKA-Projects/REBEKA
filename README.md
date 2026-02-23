@@ -57,7 +57,7 @@ The REBEKA infrastructure is organized into specialized modules:
 ## 🎥 Project Demos
 
 * **Official Pitch Video (Vision & Strategy):** [Watch on YouTube](https://youtu.be/-l_wf97nGWU)
-* **Technical Demo Video (Product & FHE in Action):** [Watch on YouTube](AQUÍ_VA_TU_LINK_DE_DEMO)
+* **Technical Demo Video (Product & FHE in Action):** [Watch on YouTube](https://youtu.be/V2LHD9zaVr0)
 
 ## 🚀 Buildathon Roadmap
 
