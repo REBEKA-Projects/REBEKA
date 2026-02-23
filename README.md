@@ -49,9 +49,15 @@ The REBEKA infrastructure is organized into specialized modules:
 
 * **`rebeka_contracts`**: The core protocol featuring the `RWAPermissionedERC20` contract and FHE token integrations.
 * **`FrontEnd`**: The professional investor gateway for onboarding, KYC status visualization, and asset management.
+* **`rebeka_mocked_back`**: The specialized backend infrastructure providing the API services and data synchronization required for institutional onboarding.
 * **`REBEKA` (Root)**: High-level architectural documentation, legal-technical frameworks, and global ecosystem governance.
 
 ---
+
+## 🎥 Project Demos
+
+* **Official Pitch Video (Vision & Strategy):** [Watch on YouTube](https://youtu.be/-l_wf97nGWU)
+* **Technical Demo Video (Product & FHE in Action):** [Watch on YouTube](AQUÍ_VA_TU_LINK_DE_DEMO)
 
 ## 🚀 Buildathon Roadmap
 
